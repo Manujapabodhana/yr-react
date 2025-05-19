@@ -13,6 +13,7 @@ function App() {
       <h1>Vite + React</h1>
       <p>{10*10}% for JSX</p>
       <p>{a}</p>
+      <p>{ a>50 ? "Greater" : "Lesser" }</p>
       </div>
      
     </>
