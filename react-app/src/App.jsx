@@ -1,18 +1,19 @@
-import Mychannel from './Components/MyChannel/Mychannel'; // Make sure the path is correct
+import BodyContent from './Components/BodyContent/BodyContent';
+import FooterContent from './Components/FooterContent/FooterContent';
+import HeaderContent from './Components/HeaderContent/HeadrContent';
+
+
 
 function App() {
   return (
     <>
       <div id="wrapper">
-        <div id="navconent">
-        <h3>header content</h3>
-      </div>
-      <div id="bodycontent">
-        <p>main side content</p>
-      </div>
-      <div id="footercontent">
-        <p>footer content</p>
-      </div>
+        <HeaderContent></HeaderContent>
+        
+        <BodyContent></BodyContent>
+        <FooterContent></FooterContent>
+      
+      
       </div>
     </>
   );
