@@ -1,4 +1,13 @@
+.navcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  min-height: 60px;
+  padding: 0 32px;
+}
 
-#navcontent{
-  min-height: 20vh;
-  background-color: #2dffd6;}
+.logo {
+  display: flex;
+  align-items: center;
+}

@@ -1,25 +1,13 @@
-import BodyContent from './Components/BodyContent/BodyContent';
-import FooterContent from './Components/FooterContent/FooterContent';
-import HeaderContent from './Components/HeaderContent/HeadrContent';
-
-
+import React from 'react';
+import HeaderContent from './Components/HeaderContent/HeaderContent';
 
 function App() {
   return (
-    <>
-      <div id="wrapper">
-        <HeaderContent></HeaderContent>
-        
-        <BodyContent></BodyContent>
-        <FooterContent></FooterContent>
-      
-      
-      </div>
-    </>
+    <div id="wrapper">
+      <HeaderContent />
+    </div>
   );
 }
 
 export default App;
-
-
 
