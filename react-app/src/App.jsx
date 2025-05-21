@@ -3,8 +3,7 @@ import Mychannel from './Components/MyChannel/Mychannel'; // Make sure the path 
 function App() {
   return (
     <>
-      <h1>Hello React App</h1>
-      <Mychannel />
+      <di
     </>
   );
 }
